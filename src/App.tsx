@@ -1,16 +1,12 @@
-import React from 'react';
 import {
   ChakraProvider,
   Box,
   Text,
-  Link,
   VStack,
-  Code,
   Grid,
   Heading,
   Tabs,
   TabList,
-  Tab,
   TabPanels,
   TabPanel,
 } from '@chakra-ui/react';

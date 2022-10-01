@@ -1,19 +1,5 @@
-import { useColorModeValue, Tab, GridItem, Center } from '@chakra-ui/react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  Heading,
-  Tabs,
-  TabList,
-  TabPanels,
-  Image,
-  TabPanel,
-} from '@chakra-ui/react';
+import { GridItem, Center } from '@chakra-ui/react';
+import { Box, Image } from '@chakra-ui/react';
 import { designImages, ImageData } from '../data/images';
 
 type ImageGalleryProps = {
