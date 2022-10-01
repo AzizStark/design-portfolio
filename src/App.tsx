@@ -28,7 +28,7 @@ function App() {
           <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
             <Heading as="h2" size="3xl">
-              Aziz Stark
+              Azar Stark
             </Heading>
             <Text fontSize="sm">
               D E S I G N <Text as="span" marginLeft={2} /> P O R T F O L I O
