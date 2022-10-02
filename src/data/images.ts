@@ -4,6 +4,11 @@ const thirdImage = require('../images/3.jpg');
 const fourthImage = require('../images/4.jpg');
 const fifthImage = require('../images/5.jpg');
 
+const sixthImage = require('../images/6.jpg');
+const seventhImage = require('../images/7.jpg');
+const eighthImage = require('../images/8.jpg');
+const ninthImage = require('../images/9.jpg');
+
 export enum ImageTags {
   Any = 'All',
   PhotoManipulation = 'Photo Manipulation',
@@ -41,5 +46,25 @@ export const designImages: ImageData[] = [
     image: fifthImage,
     name: 'Steps Manipulation',
     tags: [ImageTags.Any, ImageTags.PhotoManipulation],
+  },
+  {
+    image: sixthImage,
+    name: 'School Logo',
+    tags: [ImageTags.Any, ImageTags.GraphicDesign],
+  },
+  {
+    image: seventhImage,
+    name: 'Personal Logo',
+    tags: [ImageTags.Any, ImageTags.GraphicDesign],
+  },
+  {
+    image: eighthImage,
+    name: 'Business Card',
+    tags: [ImageTags.Any, ImageTags.GraphicDesign],
+  },
+  {
+    image: ninthImage,
+    name: 'Soul Notes Book Wrapper',
+    tags: [ImageTags.Any, ImageTags.GraphicDesign],
   },
 ];
