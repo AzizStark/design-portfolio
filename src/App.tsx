@@ -9,6 +9,7 @@ import {
   TabList,
   TabPanels,
   TabPanel,
+  Link,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { theme } from './themes/theme';
@@ -49,6 +50,26 @@ function App() {
                   })}
               </TabPanels>
             </Tabs>
+            <Box textAlign="center" alignItems={'flex-start'}>
+              <Heading as="h2" size="3xl" marginTop={'8rem'}>
+                Contact Me
+              </Heading>
+              <Text fontSize="x-large" fontWeight={'bold'} marginTop={'3rem'}>
+                {' '}
+                Mohamed Azarudeen{' '}
+              </Text>
+              <Text fontSize="sm" marginBottom={'2rem'}>
+                {' '}
+                G R A P H I C D E S I G N E R{' '}
+              </Text>
+              <Link href="mailto:azar@gmail.com">
+                E-mail: azar@gmail.com
+              </Link>
+              <br></br>
+              <Link href="mailto:+918754277208" paddingBottom={"16rem"}>
+                Phone: +91 87542 77208
+              </Link>
+            </Box>
           </VStack>
         </Grid>
       </Box>

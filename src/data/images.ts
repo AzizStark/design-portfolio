@@ -3,7 +3,6 @@ const secondImage = require('../images/2.jpg');
 const thirdImage = require('../images/3.jpg');
 const fourthImage = require('../images/4.jpg');
 const fifthImage = require('../images/5.jpg');
-
 const sixthImage = require('../images/6.jpg');
 const seventhImage = require('../images/7.jpg');
 const eighthImage = require('../images/8.jpg');
